@@ -6,7 +6,7 @@
 # Appearance
 
 appearance:
-  theme_day: minimal
+  theme_day: ocean
   theme_night:
   font: native
   font_size: L
@@ -17,11 +17,11 @@ marketing:
   seo:
     site_type: Organization
     local_business_type: ''
-    org_name: ''
-    description: 'A highly-customizable Hugo research group theme powered by Wowchemy website builder.'
-    twitter: 'GetResearchDev'
+    org_name: 'Vị'
+    description: 'Hội Quỹ Cộng đồng Vị'
+    twitter: ''
   analytics:
-    google_analytics: ''
+    google_analytics: 'G-74NLCD7XMJ'
     baidu_tongji: ''
     google_tag_manager: ''
     microsoft_clarity: ''
@@ -45,7 +45,7 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} Vị. This work is licensed under {license}'
     license:
       enable: true
       allow_derivatives: false
@@ -55,9 +55,9 @@ footer:
 # Localization
 
 locale:
-  date_format: 'Jan 2, 2006'
+  date_format: '02/01/2006'
   time_format: '3:04 PM'
-  address_format: en-us
+  address_format: vi-vn
 
 # Site features
 
@@ -72,24 +72,27 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/<username>/<repository>'
+    url: 'https://github.com/quycongdongvi/quycongdongvi.github.io'
     content_dir: content
     branch: main
   avatar:
     gravatar: false
     shape: circle
   comment:
-    provider: ''
+    provider: 'giscus'
     disqus:
       shortname: ''
       show_count: true
     commento:
       url: ''
     giscus:
-      repo: ''
-      repo_id: ''
-      category: ''
-      category_id: ''
+      repo: 'quycongdongvi/quycongdongvi.github.io'
+      repo_id: 'R_kgDONLV7SQ'
+      category: 'Announcements'
+      category_id: 'DIC_kwDONLV7Sc4CnKcz'
+      theme: light
+      language_code: en
+      mapping: pathname
   search:
     provider: wowchemy
     algolia:
